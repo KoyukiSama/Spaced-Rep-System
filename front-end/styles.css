@@ -4,6 +4,7 @@
 
 html, body {
     overflow: hidden;
+    user-select: none;
 }
 
 body {
@@ -63,4 +64,10 @@ h2 {
     letter-spacing: 2px;
 
     margin: auto 4em;
+}
+
+.task:hover {
+    border: 4px outset rgb(41, 190, 41);
+    background-color: rgb(0, 78, 0);
+    color: white;
 }
