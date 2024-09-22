@@ -18,12 +18,14 @@ body {
 .tags, .due, .soon {
     grid-row: 1;
     height: 100%;
+    overflow-y: auto;
 }
 
 .tags {
     grid-column: 1;
     background-color: gray;
     border: solid black 5px;
+    margin-bottom: 2em;
 }
 
 .due {
